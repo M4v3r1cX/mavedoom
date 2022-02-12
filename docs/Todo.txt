@@ -1,0 +1,3 @@
+* agregar una vuelta más a la canción del map01 pa que no se note tanto cuando se reinicie
+* Terminar canción intro con parte electronica
+* diseñar mapa nave
