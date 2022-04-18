@@ -1,0 +1,9 @@
+Tutorial
+https://github.com/jekyllgrim/ZScript_Basics/blob/master/01_Where_to_start.md
+
+Clases
+https://zdoom.org/wiki/Classes:Stimpack
+https://zdoom.org/wiki/Category:Doom_II_monster
+
+Inventario?
+https://zdoom.org/wiki/Classes:HealthPickup
