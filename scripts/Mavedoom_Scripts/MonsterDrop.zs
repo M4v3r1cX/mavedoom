@@ -49,3 +49,27 @@ class CyberdemonDrop : Cyberdemon replaces Cyberdemon
     }
 }
 
+class CacoDrop : Cacodemon replaces Cacodemon
+{
+	Default
+	{
+		DropItem "Stimpack", 200, 10;
+	}
+}
+
+class MancubusDrop : Fatso replaces Fatso
+{
+	Default
+	{
+		DropItem "Stimpack", 128, 30;
+	}
+}
+
+class LostSoulDrop : LostSoul replaces LostSoul
+{
+	Default
+	{
+		DropItem "ArmorBonus", 256, 1;
+	}
+}
+
