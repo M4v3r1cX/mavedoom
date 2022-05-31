@@ -1,25 +1,112 @@
-class ImpDrop : DoomImp replaces DoomImp
+// Monster drop definition class
+
+class ArachnotronDrop : Arachnotron replaces Arachnotron
 {
-    Default
-    {
-        DropItem "Stimpack", 128, 5;
+	Default
+	{
+        DropItem "Cell";
+        DropItem "Stimpack", 64, 10;
     }
 }
 
-class ZombieDrop : ZombieMan replaces ZombieMan
+class ArchvileDrop : Archvile replaces Archvile
 {
-    Default
-    {
-        DropItem "ArmorBonus", 256, 1;
+	Default
+	{
+        DropItem "CellPack";
+        DropItem "Medikit", 100, 20;
     }
+}
+
+class BaronOfHellDrop : BaronOfHell replaces BaronOfHell
+{
+	Default
+	{
+        DropItem "Medikit", 32, 50;
+        DropItem "Stimpack", 64, 5;
+    }
+}
+
+class CacoDrop : Cacodemon replaces Cacodemon
+{
+	Default
+	{
+		DropItem "Stimpack", 128, 10;
+	}
 }
 
 class ChainDrop : ChaingunGuy replaces ChaingunGuy
 {
     Default
     {
-        DropItem "Stimpack", 128, 10;
+        DropItem "Stimpack", 64, 10;
         DropItem "ArmorBonus", 128, 10;
+        Dropitem "Chaingun";
+    }
+}
+
+class CyberdemonDrop : Cyberdemon replaces Cyberdemon
+{
+    Default
+    {
+        DropItem "Soulsphere", 128, 100;
+    }
+}
+
+class PinkyDrop : Demon replaces Demon
+{
+	Default
+	{
+        DropItem "Stimpack", 64, 5;
+    }
+}
+
+class ImpDrop : DoomImp replaces DoomImp
+{
+    Default
+    {
+        DropItem "Stimpack", 42, 4;
+    }
+}
+
+class MancubusDrop : Fatso replaces Fatso
+{
+	Default
+	{
+		DropItem "Stimpack", 64, 10;
+	}
+}
+
+class HellKnightDrop : HellKnight replaces HellKnight
+{
+	Default
+	{
+        DropItem "Stimpack", 128, 10;
+    }
+}
+
+class LostSoulDrop : LostSoul replaces LostSoul
+{
+	Default
+	{
+		DropItem "ArmorBonus", 256, 1;
+	}
+}
+
+class PainElementalDrop : PainElemental replaces PainElemental
+{
+	Default
+	{
+		DropItem "Stimpack", 128, 10;
+	}
+}
+
+class RevenantDrop : Revenant replaces Revenant
+{
+    Default
+    {
+        DropItem "Stimpack", 128, 30;
+        DropItem "Rocket";
     }
 }
 
@@ -28,6 +115,15 @@ class SgDrop : ShotgunGuy replaces ShotgunGuy
     Default
     {
         DropItem "HealthBonus", 256, 2;
+        DropItem "Shotgun";
+    }
+}
+
+class SpectreDrop : Spectre replaces Spectre
+{
+	Default
+	{
+        DropItem "Stimpack", 64, 4;
     }
 }
 
@@ -41,35 +137,11 @@ class WolfensteinSSDrop : WolfensteinSS replaces WolfensteinSS
     }
 }
 
-class CyberdemonDrop : Cyberdemon replaces Cyberdemon
+class ZombieDrop : ZombieMan replaces ZombieMan
 {
     Default
     {
-        DropItem "Soulsphere", 200, 100;
+        DropItem "ArmorBonus", 256, 1;
+        DropItem "Clip";
     }
 }
-
-class CacoDrop : Cacodemon replaces Cacodemon
-{
-	Default
-	{
-		DropItem "Stimpack", 200, 10;
-	}
-}
-
-class MancubusDrop : Fatso replaces Fatso
-{
-	Default
-	{
-		DropItem "Stimpack", 128, 30;
-	}
-}
-
-class LostSoulDrop : LostSoul replaces LostSoul
-{
-	Default
-	{
-		DropItem "ArmorBonus", 256, 1;
-	}
-}
-
