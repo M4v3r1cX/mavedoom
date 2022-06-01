@@ -1,0 +1,12 @@
+actor ImpAweonao : DoomImp 2501
+{
+    health 20
+    dropitem Stimpack 42 10
+    states
+	{
+        Missile:
+            Stop;
+        Raise:
+            Stop;
+    }
+}

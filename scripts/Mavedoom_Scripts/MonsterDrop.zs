@@ -1,4 +1,5 @@
 // Monster drop definition class
+// Ordered by alphabetical order from the original class name, not the new one
 
 class ArachnotronDrop : Arachnotron replaces Arachnotron
 {
@@ -23,7 +24,7 @@ class BaronOfHellDrop : BaronOfHell replaces BaronOfHell
 	Default
 	{
         DropItem "Medikit", 32, 50;
-        DropItem "Stimpack", 64, 5;
+        DropItem "Stimpack", 96, 5;
     }
 }
 
