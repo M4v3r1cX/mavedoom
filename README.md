@@ -1,6 +1,5 @@
-# Mavedoom
-# Or Doomed Galaxy
-Name subject to changes
+# Mavedoom aka
+# Doomed by Canon
 
 # Planned Features
 * Android / Switch port with freedoom
